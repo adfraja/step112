@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true" FollowOverrideSubProducts="true">
+<Products ExportSize="Minimum">
+<Product>
+<Name/><AttributeLink/><DataContainerTypeLink/><ClassificationReference/><Product/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ClassificationCrossReference/><Values/><OverrideSubProduct/></Product></Products>
+</STEP-ProductInformation>
+
+Export from draj_test_sku_01
+Classifications All
+Products "draj_test_sku_01"
+Assets All
+
+Exported by domain exporter.
+-->
+<STEP-ProductInformation ExportTime="2023-09-20 21:13:07" ExportContext="GL" ContextID="GL" WorkspaceID="Approved" UseContextLocale="false">
+
+  <Products>
+    <Product ID="draj_test_sku_01" UserTypeID="draj_sku" ParentID="draj_testing_products">
+      <Name>draj_test_sku_01</Name>
+      <Values>
+        <Value AttributeID="draj_data_iso">2023-07-17</Value>
+        <MultiValue AttributeID="draj_product_color">
+          <Value ID="green">Green</Value>
+        </MultiValue>
+        <Value AttributeID="draj_ean">20230707</Value>
+        <Value AttributeID="draj_product_created" Derived="true">2023-09-11 14:24:48</Value>
+      </Values>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
